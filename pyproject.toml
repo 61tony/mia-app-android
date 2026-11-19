@@ -1,0 +1,26 @@
+Ini, TOML
+
+[project]
+name = "chef-stellato"
+version = "1.0.0"
+description = "Chef Stellato - Applicazione ricette"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+    "requests",
+    "pillow",
+    "ddgs",
+    "recipe-scrapers",
+    "deep-translator",
+    "beautifulsoup4",
+    "langdetect",
+]
+
+[tool.flet]
+org = "com.chefstellato"
+product = "Chef Stellato"
+company = "Chef Stellato"
+copyright = "Copyright (c) 2026 Chef Stellato"
+
+[tool.flet.android]
+permission.INTERNET = true
